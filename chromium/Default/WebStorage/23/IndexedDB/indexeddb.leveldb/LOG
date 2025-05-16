@@ -1,0 +1,6 @@
+2025/05/05-16:12:30.436 3a7 Creating DB /home/nyp3r/.config/chromium/Default/WebStorage/23/IndexedDB/indexeddb.leveldb since it was missing.
+2025/05/05-16:12:30.438 3a7 Reusing MANIFEST /home/nyp3r/.config/chromium/Default/WebStorage/23/IndexedDB/indexeddb.leveldb/MANIFEST-000001
+2025/05/05-16:22:36.102 3a8 Level-0 table #5: started
+2025/05/05-16:22:36.103 3a8 Level-0 table #5: 1200 bytes OK
+2025/05/05-16:22:36.104 3a8 Delete type=0 #3
+2025/05/05-16:22:36.104 3a8 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

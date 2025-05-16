@@ -1,0 +1,12 @@
+2025/05/05-19:06:51.256 3a8 Reusing MANIFEST /home/nyp3r/.config/chromium/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/05/05-19:06:51.256 3a8 Recovering log #7
+2025/05/05-19:06:51.259 3a8 Reusing old log /home/nyp3r/.config/chromium/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/000007.log 
+2025/05/05-19:06:52.569 3a9 Compacting 1@1 + 1@2 files
+2025/05/05-19:06:52.577 3a9 Generated table #10@1: 164 keys, 682442 bytes
+2025/05/05-19:06:52.578 3a9 Compacted 1@1 + 1@2 files => 682442 bytes
+2025/05/05-19:06:52.579 3a9 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/05/05-19:06:52.579 3a9 Delete type=2 #5
+2025/05/05-19:06:52.579 3a9 Delete type=2 #8
+2025/05/05-19:07:04.587 3a7 Level-0 table #12: started
+2025/05/05-19:07:04.602 3a7 Level-0 table #12: 3161499 bytes OK
+2025/05/05-19:07:04.604 3a7 Delete type=0 #7

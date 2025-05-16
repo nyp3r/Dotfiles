@@ -1,0 +1,12 @@
+2025/05/15-20:47:57.417 8bf Reusing MANIFEST /home/nyp3r/.config/chromium/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/05/15-20:47:57.417 8bf Recovering log #38
+2025/05/15-20:47:57.424 8bf Reusing old log /home/nyp3r/.config/chromium/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000038.log 
+2025/05/15-20:47:59.934 8c0 Level-0 table #43: started
+2025/05/15-20:47:59.942 8c0 Level-0 table #43: 1981152 bytes OK
+2025/05/15-20:47:59.944 8c0 Delete type=0 #38
+2025/05/15-20:48:07.293 8c0 Compacting 1@1 + 1@2 files
+2025/05/15-20:48:07.297 8c0 Generated table #44@1: 329 keys, 76507 bytes
+2025/05/15-20:48:07.297 8c0 Compacted 1@1 + 1@2 files => 76507 bytes
+2025/05/15-20:48:07.298 8c0 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/05/15-20:48:07.298 8c0 Delete type=2 #40
+2025/05/15-20:48:07.298 8c0 Delete type=2 #43

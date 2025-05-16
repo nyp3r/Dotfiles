@@ -1,0 +1,62 @@
+@theme "/usr/share/rofi/themes/android_notification.rasi"
+
+configuration{
+	dpi: 200;
+}
+
+window {
+	font: "JetBrainMono Nerdfont";
+	width: 500px;
+	height: 400px;
+	background-color: rgba(0,0,0,0.4);
+	border-color: white;
+}
+
+listview {
+	border: 1px solid 0px 0px ;
+	border-color: rgba(255,255,255,100%);
+}
+
+element {
+	orientation: horizontal;
+	children: [ element-icon, element-text  ];
+	spacing: 5px;
+}
+
+element-text {}
+
+element.selected.normal{
+	background-color: rgba(0,0,0,0);
+}
+
+element.selected.urgent{
+	background-color: rgba(0,0,0,0);
+}
+
+element.selected.active{
+	background-color: rgba(0,0,0,0);
+}
+
+element.alternate.normal{
+	background-color: rgba(0,0,0,0);
+}
+
+element.alternate.urgent{
+	background-color: rgba(0,0,0,0);
+}
+
+element.alternate.active{
+	background-color: rgba(0,0,0,0);
+}
+
+element.normal.normal{
+	background-color: rgba(0,0,0,0);
+}
+
+element.normal.urgent{
+	background-color: rgba(0,0,0,0);
+}
+
+element.normal.active{
+	background-color: rgba(0,0,0,0);
+}

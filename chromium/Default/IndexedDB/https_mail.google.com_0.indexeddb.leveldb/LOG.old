@@ -1,0 +1,6 @@
+2025/05/05-17:15:00.130 3a8 Reusing MANIFEST /home/nyp3r/.config/chromium/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/05/05-17:15:00.130 3a8 Recovering log #4
+2025/05/05-17:15:00.135 3a8 Reusing old log /home/nyp3r/.config/chromium/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/000004.log 
+2025/05/05-17:15:04.280 3a7 Level-0 table #8: started
+2025/05/05-17:15:04.295 3a7 Level-0 table #8: 3065439 bytes OK
+2025/05/05-17:15:04.297 3a7 Delete type=0 #4

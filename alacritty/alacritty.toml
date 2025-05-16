@@ -1,0 +1,11 @@
+[window]
+padding = { x = 10, y = 5 }
+
+[scrolling]
+history = 100000
+
+[font]
+normal = { family = "JetBrainsMono Nerd Font", style = "regular" }
+
+[colors.primary]
+background = "#14161B"

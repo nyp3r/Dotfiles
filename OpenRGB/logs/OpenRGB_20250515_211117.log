@@ -1,0 +1,21 @@
+    OpenRGB v0.9
+    Commit:  from 
+    Launched: 20250515_211117
+====================================================================================================
+
+0     |Info:    Found file: Rainbow.orp attempting to validate header
+0     |Info:    Valid v4 profile found for Rainbow
+0     |Info:    Found file: EveningLight.orp attempting to validate header
+0     |Info:    Valid v4 profile found for EveningLight
+0     |Info:    Found file: off.orp attempting to validate header
+0     |Info:    Valid v4 profile found for off
+1001  |Info:    ------------------------------------------------------
+1001  |Info:    |               Start device detection               |
+1001  |Info:    ------------------------------------------------------
+1001  |Info:    Initializing HID interfaces: Success
+1006  |Info:    ------------------------------------------------------
+1006  |Info:    |             Detecting I2C interfaces               |
+1006  |Info:    ------------------------------------------------------
+1006  |Info:    Registering I2C interface: /dev/i2c-3 Device 1002:7550 Subsystem: 1EAE:8810
+1006  |Info:    Registering I2C interface: /dev/i2c-10 Device 1022:790B Subsystem: 1043:87E1
+1006  |Info:    Registering I2C interface: /dev/i2c-1 Device 1002:7550 Subsystem: 1EAE:8810

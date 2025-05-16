@@ -1,0 +1,6 @@
+2025/05/13-21:54:38.267 5645 Creating DB /home/nyp3r/.config/chromium/Default/IndexedDB/https_digitalpost.e-boks.dk_0.indexeddb.leveldb since it was missing.
+2025/05/13-21:54:38.270 5645 Reusing MANIFEST /home/nyp3r/.config/chromium/Default/IndexedDB/https_digitalpost.e-boks.dk_0.indexeddb.leveldb/MANIFEST-000001
+2025/05/13-21:54:38.286 5647 Level-0 table #5: started
+2025/05/13-21:54:38.288 5647 Level-0 table #5: 778 bytes OK
+2025/05/13-21:54:38.290 5647 Delete type=0 #3
+2025/05/13-21:54:38.290 5647 Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)
