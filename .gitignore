@@ -1,2 +1,3 @@
 *.log
 .config/OpenRGB/
+.config/Chromium/
