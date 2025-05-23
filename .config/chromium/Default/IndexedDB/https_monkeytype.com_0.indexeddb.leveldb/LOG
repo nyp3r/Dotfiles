@@ -1,7 +1,0 @@
-2025/05/12-18:54:29.162 436 Reusing MANIFEST /home/nyp3r/.config/chromium/Default/IndexedDB/https_monkeytype.com_0.indexeddb.leveldb/MANIFEST-000001
-2025/05/12-18:54:29.162 436 Recovering log #6
-2025/05/12-18:54:29.162 436 Reusing old log /home/nyp3r/.config/chromium/Default/IndexedDB/https_monkeytype.com_0.indexeddb.leveldb/000006.log 
-2025/05/12-18:54:29.265 44a Level-0 table #11: started
-2025/05/12-18:54:29.267 44a Level-0 table #11: 810 bytes OK
-2025/05/12-18:54:29.268 44a Delete type=0 #6
-2025/05/12-18:54:29.268 437 Manual compaction at level-0 from '\x00\x04\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x05\x00\x00\x00' @ 0 : 0; will stop at (end)
