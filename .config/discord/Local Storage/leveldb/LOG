@@ -1,8 +1,0 @@
-2025/05/22-12:30:58.592 18e5 Creating DB /home/nyp3r/.config/discord/Local Storage/leveldb since it was missing.
-2025/05/22-12:30:58.600 18e5 Reusing MANIFEST /home/nyp3r/.config/discord/Local Storage/leveldb/MANIFEST-000001
-2025/05/22-12:34:38.623 18e6 Level-0 table #5: started
-2025/05/22-12:34:38.634 18e6 Level-0 table #5: 1044569 bytes OK
-2025/05/22-12:34:38.635 18e6 Delete type=0 #3
-2025/05/22-15:52:11.984 18e6 Level-0 table #7: started
-2025/05/22-15:52:11.985 18e6 Level-0 table #7: 42121 bytes OK
-2025/05/22-15:52:11.987 18e6 Delete type=0 #4
