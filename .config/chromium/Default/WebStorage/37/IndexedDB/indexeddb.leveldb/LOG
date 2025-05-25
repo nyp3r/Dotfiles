@@ -1,7 +1,0 @@
-2025/05/12-11:20:09.738 983 Reusing MANIFEST /home/nyp3r/.config/chromium/Default/WebStorage/37/IndexedDB/indexeddb.leveldb/MANIFEST-000001
-2025/05/12-11:20:09.738 983 Recovering log #3
-2025/05/12-11:20:09.738 983 Reusing old log /home/nyp3r/.config/chromium/Default/WebStorage/37/IndexedDB/indexeddb.leveldb/000003.log 
-2025/05/12-11:20:12.323 977 Level-0 table #5: started
-2025/05/12-11:20:12.324 977 Level-0 table #5: 26684 bytes OK
-2025/05/12-11:20:12.325 977 Delete type=0 #3
-2025/05/12-11:20:12.325 977 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
