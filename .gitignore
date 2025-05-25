@@ -1,4 +1,4 @@
 *.log
 .config/OpenRGB/
-.config/Chromium/
+.config/chromium/
 .config/discord/
