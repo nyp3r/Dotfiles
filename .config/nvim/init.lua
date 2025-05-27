@@ -19,4 +19,9 @@ vim.opt.shiftwidth = tabSpaces
 
 vim.g.mapleader = ","
 
-vim.keymap.set("n", "<Leader>r", ":w|!gcc %;./a.out <Enter>")
+vim.keymap.set("n", "<leader>,", "mzA,<Esc>`z", { desc = "add comma to end of line" })
+vim.keymap.set("n", "<leader>;", "mzA;<Esc>`z", { desc = "add semicolon to end of line" })
+vim.keymap.set("n", "<Leader>r", ":w|!gcc %;./a.out <Enter>", { desc = "save, compile and run program"})
+vim.keymap.set("n", "<Leader>l", ":e ~/todo <Enter>", { desc = "open TODO file"})
+vim.keymap.set("n", "<Leader>i", ":e ~/funIdeas <Enter>", {desc = "open the file of fun ideas!"})
+vim.keymap.set("n", "<Leader>n", ":e ~/Dotfiles/.config/nvim/init.lua <Enter>", {desc = "open init file"})

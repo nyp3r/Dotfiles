@@ -1,2 +1,2 @@
 #!/bin/bash
-ln -s ~/Dotfiles/.config/ ~/.config
+ln -sf ~/Dotfiles/.config/* ~/.config/

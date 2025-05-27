@@ -628,6 +628,13 @@ hi def link cCppOut		Comment
 hi def link cFunction		Function
 hi def link cFunctionPointer	Function
 
+hi Statement    guifg=#a057ff
+hi Function     guifg=#e1adff
+hi Type         guifg=#d9f1ff
+hi @variable    guifg=#a6deff
+hi Constant     guifg=#a6fff6
+hi Identifier   guifg=#00a2ff
+
 let b:current_syntax = "c"
 
 unlet s:ft
