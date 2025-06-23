@@ -20,7 +20,9 @@ vim.o.cursorline = true
 vim.o.scrolloff = 10
 vim.o.confirm = true
 vim.o.autochdir = true
-vim.o.softtabstop = 4
+vim.o.shiftwidth = 4
+vim.o.tabstop = 4
+vim.o.expandtab = true
 
 vim.keymap.set('n', '<Esc>', '<cmd>nohlsearch<CR>')
 
@@ -50,6 +52,15 @@ vim.keymap.set('n', '<Leader>i', ':e ~/funIdeas <Enter>', { desc = 'open the fil
 vim.keymap.set('n', '<Leader>n', ':e ~/Dotfiles/.config/nvim/init.lua <Enter>', { desc = 'open init file' })
 vim.keymap.set('n', '<Leader>b', ':bnext <Enter>', { desc = 'go to next buffer' })
 vim.keymap.set('n', '<Leader>t', ':Telescope oldfiles <Enter>', { desc = 'open old files with Telescope' })
+
+if vim.api.nvim_buf_get_name(0) == '/home/nyp3r/Programming/C/Learning/todo' then
+  vim.keymap.set(
+    'n',
+    '<Leader>r',
+    ':w|!gcc % -lglfw -lGL -lleif -lclipboard -lxcb -lm -Wno-stringop-overflow;./a.out <Enter>',
+    { desc = 'save, compile (with flags for GUI) and run program' }
+  )
+end
 
 -- check/uncheck item in checklist with 'æ' and 'ø'
 vim.api.nvim_create_autocmd('BufReadPost', {
@@ -139,10 +150,12 @@ rtp:prepend(lazypath)
 require('lazy').setup({
   -- NOTE: Plugins can be added with a link (or for a github repo: 'owner/repo' link).
   'NMAC427/guess-indent.nvim', -- Detect tabstop and shiftwidth automatically
+  'numToStr/Comment.nvim', -- Comment/uncomment with keybinds
 
   -- NOTE: Plugins can also be added by using a table,
   -- with the first argument being the link and the following
   -- keys can be used to configure plugin behavior/loading/etc.
+
   --
   -- Use `opts = {}` to automatically pass options to a plugin's `setup()` function, forcing the plugin to be loaded.
   --
@@ -563,7 +576,6 @@ require('lazy').setup({
       --        For example, to see the options for `lua_ls`, you could go to: https://luals.github.io/wiki/settings/
       local servers = {
         clangd = {},
-        -- gopls = {},
         -- pyright = {},
         -- rust_analyzer = {},
         -- ... etc. See `:help lspconfig-all` for a list of all the pre-configured LSPs
@@ -573,7 +585,6 @@ require('lazy').setup({
         --
         -- But for many setups, the LSP (`ts_ls`) will work just fine
         -- ts_ls = {},
-        --
 
         lua_ls = {
           -- cmd = { ... },
@@ -585,7 +596,7 @@ require('lazy').setup({
                 callSnippet = 'Replace',
               },
               -- You can toggle below to ignore Lua_LS's noisy `missing-fields` warnings
-              -- diagnostics = { disable = { 'missing-fields' } },
+              diagnostics = { disable = { 'missing-fields' } },
             },
           },
         },
@@ -612,6 +623,7 @@ require('lazy').setup({
 
       require('mason-lspconfig').setup {
         ensure_installed = {}, -- explicitly set to an empty table (Kickstart populates installs via mason-tool-installer)
+        automatic_enable = {},
         automatic_installation = false,
         handlers = {
           function(server_name)
@@ -865,9 +877,9 @@ require('lazy').setup({
   --  Uncomment any of the lines below to enable them (you will need to restart nvim).
   --
   -- require 'kickstart.plugins.debug',
-  -- require 'kickstart.plugins.indent_line',
-  -- require 'kickstart.plugins.lint',
-  -- require 'kickstart.plugins.autopairs',
+  require 'kickstart.plugins.indent_line',
+  require 'kickstart.plugins.lint',
+  require 'kickstart.plugins.autopairs',
   -- require 'kickstart.plugins.neo-tree',
   -- require 'kickstart.plugins.gitsigns', -- adds gitsigns recommend keymaps
 
