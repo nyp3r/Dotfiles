@@ -23,6 +23,9 @@ vim.o.autochdir = true
 vim.o.shiftwidth = 4
 vim.o.tabstop = 4
 vim.o.expandtab = true
+vim.opt.title = true
+vim.opt.titlelen = 0 -- do not shorten title
+vim.opt.titlestring = 'nvim %{expand("%:p")}'
 
 vim.keymap.set('n', '<Esc>', '<cmd>nohlsearch<CR>')
 
